@@ -1,0 +1,24 @@
+{
+
+  "files.exclude": {
+    "/.git": true,
+    "/.DS_Store": true,
+    "/node_modules": true,
+    "/node_modules/": true
+  },
+  "search.exclude": {
+    "/node_modules": true
+  },
+  "files.watcherExclude": {
+    "/node_modules/": true
+  },
+  "window.zoomLevel": 0.0,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": true,
+  "editor.formatOnSave": false,
+  "vetur.validation.template": false,
+  "editor.fontSize": 13
+
+}
