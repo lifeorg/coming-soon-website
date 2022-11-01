@@ -14765,10 +14765,10 @@ footer .copyright__link li a span {
   .blocks_btn .hero__btn {
     font-size: 12px;
   }
-  /* .rocketIMg {
-    /* right: -30%; */
+   /* .rocketIMg {
+     right: -30%; 
     max-width: 200px;
-  } */
+  }  */
   .more-than-a-coin,
   .a-growing-ecosystem {
     font-size: 26px;
@@ -14817,7 +14817,7 @@ footer .copyright__link li a span {
     max-width: 290px;
   }
   /* .rocketIMg {
-    /* right: -25%; */
+     right: -25%; 
     max-width: 200px;
   } */
 }
@@ -14847,6 +14847,13 @@ footer .copyright__link li a span {
   }
   .rocketIMg {
     /* right: -17%; */
+    max-width: 200px;
+  }
+  .people__content{
+    font-size: 15px;
+  }
+  .people__head{
+    font-size: 27px;
   }
 } /*# sourceMappingURL=main.css.map */
 
