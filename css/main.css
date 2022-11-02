@@ -14921,6 +14921,7 @@ footer .copyright__link li a span {
   bottom: 0%;
   width: 300px;
   height: 300px;
+  z-index: 10000;
 }
 .logo9{
   position: absolute;
