@@ -14504,11 +14504,7 @@ footer .copyright__link li a span {
   .people .container {
     padding: 0 13px;
   }
-  .people__head {
-    font-size: 32px;
-    letter-spacing: -1.33px;
-    margin-bottom: 10px;
-  }
+
   .people__content {
     font-size: 18px;
     letter-spacing: -0.01em;
@@ -14995,7 +14991,9 @@ footer .copyright__link li a span {
     vertical-align: middle;
     height: 100vh;
 }
+
 @media (max-width: 767px) {
+
    .hero__btns {
     flex-direction: column;
     grid-gap: 0;
@@ -15033,4 +15031,15 @@ footer .copyright__link li a span {
   }
  
 }
-
+@media (min-width: 321px) and (max-width: 767px) {
+  .people__head {
+    font-size: 35px;
+    letter-spacing: -1.33px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 320px) {
+  .people__head {
+    font-size: 28px;
+  }
+}
