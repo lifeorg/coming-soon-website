@@ -13272,7 +13272,7 @@ header .navbar-expand-lg .navbar.bottom .dropdown-menu {
   max-width: 731px;
   margin: 23px auto 30px auto;
   font-family: "Proxima-Nova-Condensed-Thin";
-  font-size: 18px;
+  font-size: 19px;
   font-stretch: normal;
   font-style: normal;
   text-align: center;
@@ -14353,7 +14353,7 @@ footer .copyright__link li a span {
     margin-top: -46px;
   }
   header {
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     left: 0;
     right: 0;
@@ -14507,7 +14507,7 @@ footer .copyright__link li a span {
   }
 
   .people__content {
-    font-size: 18px;
+    font-size: 21px;
     letter-spacing: -0.01em;
     line-height: 27px;
     margin: 10px 0;
@@ -15044,7 +15044,6 @@ footer .copyright__link li a span {
   }
    .people {
     height: auto;
-    padding-top: 40px !important;
   }
 }
 @media (max-width: 375px) {
@@ -15059,11 +15058,11 @@ footer .copyright__link li a span {
   }
   .people {
     height: auto;
-    padding-top: 40px !important;
+    /* padding-top: 40px !important; */
   }
 }
 @media (max-height: 667px) {
   .logo10 {
-    bottom: -10%;
+    bottom: -50%;
   }
 }
