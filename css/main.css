@@ -15033,7 +15033,7 @@ footer .copyright__link li a span {
   }
  
 }
-@media (min-width: 321px) and (max-width: 767px) {
+@media (min-width: 376px) and (max-width: 767px) {
   body, html{
     background: #fcfcfc;
   }
@@ -15044,16 +15044,26 @@ footer .copyright__link li a span {
   }
    .people {
     height: auto;
+    padding-top: 40px !important;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 375px) {
   body, html{
     background: #fcfcfc;
   }
   .people__head {
-    font-size: 28px;
+    font-size: 30px;
+  }
+  .people__content{
+        line-height: inherit;
   }
   .people {
     height: auto;
+    padding-top: 40px !important;
+  }
+}
+@media (max-height: 667px) {
+  .logo10 {
+    bottom: -10%;
   }
 }
