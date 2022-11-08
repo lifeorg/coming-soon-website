@@ -1312,3 +1312,8 @@
         right: -17%;
     }
 }
+@media (max-height: 480px) {
+  .logo10 {
+    display: none !important;
+  }
+}

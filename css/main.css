@@ -15063,6 +15063,11 @@ footer .copyright__link li a span {
 }
 @media (max-height: 667px) {
   .logo10 {
-    bottom: -50%;
+    bottom: -45%;
+  }
+}
+@media (max-height: 480px) {
+  .logo10 {
+    display: none !important;
   }
 }
