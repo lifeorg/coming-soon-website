@@ -1,6 +1,22 @@
 @use "../utils/index" as *;
 
 
+@media (max-height: 800px) {
+    .logo10 {
+        position: static;
+    }
+
+    .people {
+        height: auto
+    }
+
+    .revolution.drone,
+    .revolution,
+    .people {
+        overflow: hidden;
+        padding: 10px 0;
+    }
+}
 
 @media (max-width:1400px) {
     .revolution__img {
@@ -50,6 +66,11 @@
         margin-bottom: 75px;
 
     }
+
+    /**** NEW ****/
+    .logo9 {
+        left: 3%;
+    }
 }
 
 @media (max-width:1250px) {
@@ -63,6 +84,11 @@
         margin: 0 30px 0 0;
     }
 
+    /**** NEW ****/
+    .logo9 {
+        left: 0%;
+        bottom: 0;
+    }
 }
 
 @media (max-width:1199px) {
@@ -216,10 +242,29 @@
     .blocks.bringing {
         width: 100%;
     }
+
+    /**** NEW ****/
+    .rocketIMg {
+        max-width: 190px;
+    }
+
+    header .navbar.top {
+        width: 100%;
+        height: auto;
+    }
+
+    .logo9 {
+        left: -1%;
+    }
+
+    #video-1 {
+        transform: scale(1.4) translateX(30px);
+    }
+
+    .logo8 {
+        left: 16%;
+    }
 }
-
-
-
 
 @media (max-width:1043px) {
     .blocks_cards_layout .blocks_card:nth-child(2n+1) {
@@ -240,6 +285,7 @@
     .hero .hero__img {
         margin: 0 auto;
     }
+
     .hero .hero__element {
         width: 350px;
         left: 19.9%;
@@ -595,7 +641,76 @@
     header .navbar.bottom .navbar-collapse .dropdown.mega .dropdown-menu .Learn-About-BitWebs {
         height: 53px !important;
     }
+
+    /**** NEW ****/
+    .logo9 {
+        left: -9%;
+        width: 280px;
+        height: 280px;
+    }
+
+    #video-1 {
+        transform: scale(1.3) translateX(0px);
+    }
+
+    .logo2 {
+        left: 9%;
+        top: 9%;
+        width: 60px;
+        height: 60px;
+    }
+
+    .logo3 {
+        left: 20%;
+        top: 30%;
+        width: 60px;
+        height: 60px;
+    }
+
+    .logo4 {
+        left: 5%;
+        top: 52%;
+        width: 50px;
+        height: 50px;
+    }
+
+    .logo5 {
+        position: absolute;
+        right: 9%;
+        top: 9%;
+        width: 80px;
+        height: 80px;
+    }
+
+    .logo6 {
+        right: 5%;
+        top: 40%;
+        width: 60px;
+        height: 61px;
+    }
+
+    .logo7 {
+        right: 11%;
+        top: 65%;
+        width: 95px;
+        height: 95px;
+    }
+
+    .logo9 {
+        left: -4%;
+        bottom: 0%;
+        width: 190px;
+        height: 190px;
+    }
+
+    .logo8 {
+        left: 9%;
+        bottom: 0%;
+        width: 190px;
+        height: 190px;
+    }
 }
+ 
 
 @media(max-width:767px) {
     .container {
@@ -604,7 +719,7 @@
 
     header .navbar.bottom .navbar-collapse .dropdown.mega .dropdown-menu {
         width: 100% !important;
-        padding: 15px; 
+        padding: 15px;
     }
 
     header .navbar.bottom .navbar-collapse .dropdown.mega .dropdown-menu .Rectangle {
@@ -631,9 +746,11 @@
         min-height: auto;
         flex-direction: column;
     }
+
     .section {
         padding-top: 50px;
     }
+
     .swipe {
         padding-top: 20px;
     }
@@ -729,13 +846,16 @@
         align-items: center;
         justify-content: center;
     }
+
     .people.planet {
         margin-bottom: 0;
         height: max-content;
+
         .hero__btns.token {
             margin-bottom: 50px;
         }
     }
+
     .people.relative {
         .hero__btns.token {
             margin-bottom: 0;
@@ -1042,6 +1162,10 @@
         padding: 0px 0 50px !important;
         height: max-content;
     }
+
+    .people__head {
+        font-size: 30px;
+    }
 }
 
 @media(max-width:575px) {
@@ -1090,57 +1214,73 @@
         right: -30%;
         max-width: 200px;
     }
-    .more-than-a-coin, .a-growing-ecosystem {
-        font-size: 26px; 
+
+    .more-than-a-coin,
+    .a-growing-ecosystem {
+        font-size: 26px;
     }
+
     .BitWeb-is-enabling-a {
-        font-size: 16px; 
+        font-size: 16px;
         margin: 10px auto;
         height: auto;
     }
+
     .The-B1T-token-is-mor {
         margin: 0 0 15px;
         font-size: 16px;
         padding: 0;
     }
+
     .planet .col {
         padding: 0 15px;
     }
-    .revolution.drone, .revolution, .people {
+
+    .revolution.drone,
+    .revolution,
+    .people {
         padding: 30px 0;
     }
+
     .hero__btn {
-        box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.1) !important     ;
+        box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.1) !important;
     }
+
     .blocks.bringing {
         margin-top: 10px;
     }
 
 }
+
 @media(max-width:500px) {
     .hero .hero__img {
         margin: 13% 0 0;
     }
-    .hero__btns a,.blocks_btn .hero__btn {
+
+    .hero__btns a,
+    .blocks_btn .hero__btn {
         height: 56px !important;
         justify-content: center;
     }
+
     .hero__btn.bringing.bg-white {
         box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1) !important;
     }
 }
+
 @media(max-width:460px) {
     .hero .hero__img {
         margin: 22% 0 0;
         max-width: 290px;
     }
+
     .rocketIMg {
         right: -25%;
         max-width: 200px;
     }
-    
 
 }
+
 @media(max-width:427px) {
     .hero .hero__img {
         margin: 3% 0 0;
@@ -1151,14 +1291,12 @@
         font-size: 32px;
         margin: 20px 0px;
     }
+
     .hero .hero__element {
         width: 164px;
         left: 20.9%;
         top: 10%;
     }
-    
-    
-
 }
 
 @media(max-width:374px) {
@@ -1169,6 +1307,7 @@
     .swiper {
         padding: 25px 10px 5px 10px;
     }
+
     .rocketIMg {
         right: -17%;
     }
