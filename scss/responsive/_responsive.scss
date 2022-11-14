@@ -1,22 +1,6 @@
 @use "../utils/index" as *;
 
 
-@media (max-height: 800px) {
-    .logo10 {
-        position: static;
-    }
-
-    .people {
-        height: auto
-    }
-
-    .revolution.drone,
-    .revolution,
-    .people {
-        overflow: hidden;
-        padding: 10px 0;
-    }
-}
 
 @media (max-width:1400px) {
     .revolution__img {
@@ -1312,8 +1296,26 @@
         right: -17%;
     }
 }
+
+
+@media (max-height: 800px) {
+    .logo10 {
+        position: static !important;
+    }
+
+    .people {
+        height: auto !important;
+    }
+
+    .revolution.drone,
+    .revolution,
+    .people {
+        overflow: hidden !important;
+        padding: 10px 0 !important;
+    }
+}
 @media (max-height: 480px) {
   .logo10 {
-    display: none !important;
+    display: none;
   }
 }
