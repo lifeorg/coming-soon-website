@@ -16426,7 +16426,7 @@ main{
   }
 
   #block2 {
-    padding-top: 0px !important;
+    padding-top: 0px;
   }
 
   .people.relative .contentBox .coinImg,
@@ -16455,6 +16455,7 @@ main{
 
   .people__head {
     font-size: 30px;
+    font-weight: 700;
   }
 
   #video-1 {
@@ -16553,9 +16554,9 @@ main{
   }
 
   .people__content {
-    font-size: 16px;
+    font-size: 20px;
     letter-spacing: -0.01em;
-    line-height: 19px;
+    line-height: 23px;
     margin: 30px 0;
     padding: 0;
   }
@@ -16664,7 +16665,7 @@ main{
 }
 @media (max-width: 375px) {
   body, html {
-    /* background: #fcfcfc; */
+    background: #fcfcfc;
   }
 
   .people__head {
@@ -16673,6 +16674,10 @@ main{
 
   .people__content {
     line-height: inherit;
+  }
+
+   #block2 {
+    padding-top: 90px !important;
   }
 
   .people {
